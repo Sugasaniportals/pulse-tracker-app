@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Pulse",
+    "slug": "pulse-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "backgroundColor": "#0E1213"
+    },
+    "android": {
+      "package": "com.yourname.pulsetracker",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E1213"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.POST_NOTIFICATIONS",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#6FFFB0"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Pulse uses your camera to capture proof photos for activities you mark done."
+        }
+      ]
+    ],
+    "owner": "codewithgrits-team",
+    "extra": {
+      "eas": {
+        "projectId": "c88668c2-bf6c-4946-91e3-ea5cf124531d"
+      }
+    }
+  }
+}
