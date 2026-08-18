@@ -9,7 +9,7 @@
       "backgroundColor": "#0E1213"
     },
     "android": {
-      "package": "com.yourname.pulsetracker",
+      "package": "com.codewithgrits.pulsetracker",
       "adaptiveIcon": {
         "backgroundColor": "#0E1213"
       },

@@ -29,7 +29,8 @@
     "typescript": "~5.9.2"
   },
   "devDependencies": {
-    "@babel/core": "^7.24.0"
+    "@babel/core": "^7.24.0",
+    "supabase": "^2.114.0"
   },
   "private": true
 }
